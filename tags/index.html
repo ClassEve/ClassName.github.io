@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          EVE | Blog
+          标签 - EVE | Blog
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/">
+    <link rel="canonical" href="http://yoursite.com/tags/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -71,8 +71,8 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/header_img/home.jpg') 
-            /*config*/
+            background-image: url('/img/header_img/tag.png')
+            /*page*/
         
     }
     
@@ -86,7 +86,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
                     <div class="site-heading">
-                        <h1>EVE</h1>
+                        <h1>标签</h1>
                         <!--<hr class="small">-->
                         <span class="subheading"></span>
                     </div>
@@ -194,120 +194,46 @@
     <!-- Main Content -->
 <div class="container">
     <div class="row">
-        
-
-<!-- USE SIDEBAR -->
-    <!-- Post Container -->
-            <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
-            
-                <!-- Main Content -->
-
-
-<div class="post-preview">
-
-    <a href="/article/home/">
-        <h2 class="post-title">
-            第一篇
-        </h2>
-        <h3 class="post-subtitle">
-            这是一篇测试文章
-        </h3>
-        <div class="post-content-preview">
-            
-还没有什么内容呢
-
-ONE
-TWO
-THREE
-...
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by EVE on
-            2019-03-15
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#one" title="one">one</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-
-
-<!-- Pager -->
-
-<ul class="pager">
-    
-    
-</ul>
-
-
-
-                <br>
-
-                <!-- require APlayer -->
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 标签云 -->
+            <div id="tag_cloud" class="tags">
                 
-
-                <!-- 如果开启评论功能 -->
+                    <a href="#one" title="one" rel="1">one</a>
                 
             </div>
 
-          <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-    <h5><a href="/about/">ABOUT ME</a></h5>
-    <div class="short-about">
-
-        
-            <img id="avatar_pic" src="/img/avatar/avatar.jpg">
-        
-
-        
-            <p>hei  hei  hei</p>
-        
-
-        <!-- SNS Link -->
-        <ul class="list-inline">
-            
-            
-            
+            <!-- 标签列表 -->
 
             
-
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="one">
+                    <span class="tag-text">one</span>
+                </span>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/article/home/">
+                        <h2 class="post-title">
+                            第一篇
+                        </h2>
+                        
+                            <h3 class="post-subtitle">
+                                这是一篇测试文章
+                            </h3>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
+                
+            </div>
             
 
-            
-            
-            
-            
-        </ul>
-    </div>
-</section>
 
-        <hr>
-    
-</div>
-
-        
+        </div>
     </div>
 </div>
 

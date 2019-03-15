@@ -3,12 +3,17 @@
 
     <sitemap>
         <loc>http://yoursite.com/post-sitemap.xml</loc>
-        <lastmod>2019-03-15T11:42:21.157Z</lastmod>
+        <lastmod>2019-03-15T12:47:12.852Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://yoursite.com/page-sitemap.xml</loc>
+        <lastmod>2019-03-15T12:49:50.936Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://yoursite.com/tag-sitemap.xml</loc>
-        <lastmod>2019-03-15T11:42:21.157Z</lastmod>
+        <lastmod>2019-03-15T12:47:12.852Z</lastmod>
     </sitemap>
 
 </sitemapindex>
